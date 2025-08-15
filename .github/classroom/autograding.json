@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "Compile and Run Hidden Tests",
+      "setup": "g++ .github/tests/hidden_tests.cpp minstack.cpp -o test",
+      "run": "./test",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
